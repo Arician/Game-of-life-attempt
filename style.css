@@ -2,3 +2,6 @@
 .cell {width: 10px;height: 10px;border: 1px;}
 .alive {background-color: blueviolet;}
 .dead {background-color: white;}
+@media (width <=600px) {
+    .cell {width: 3px;height: 3px;}
+}
